@@ -1,0 +1,26 @@
+#new_message {
+	width: 100%;
+}
+
+.well {
+	min-height: 180px;
+
+}
+
+h1 {
+text-align: center;
+
+}
+
+h2 {
+text-align: center;
+
+}
+
+#postlist {
+	width: 100%;
+}
+
+.pull-right {
+	text-align: right;
+}

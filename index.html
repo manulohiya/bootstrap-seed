@@ -19,7 +19,57 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    
+<!-- Add Jumbotron -->
+<div class="container">    
+    <h1> Twitbook - Manu's awesome microblog site</h1>.
+</div>
+<hr />
+<div class="container">
+  <div class="row">
+    <div class="span4 well" style="padding-bottom:0">
+            <form accept-charset="UTF-8" action="" method="POST">
+                <textarea class="span4" id="new_message" name="new_message"
+                placeholder="Type in your message" maxlength="300" rows="3"></textarea>
+                <h6 class="pull-right"><span id="characters_remaining">300</span>
+                    characters remaining</h6>
+                <button class="btn btn-info" type="submit">Post New Message</button>
+            </form>
+        </div>
+  </div>
+</div>
+
+<!-- Add history of posts -->
+<div class="container">    
+    <h2> All of Manu's posts</h2>.
+</div>
+
+<div class="container">
+<div class="row">
+    <!-- <div class="col-md-3"></div> -->
+  <div class="col-md-12">
+    <div id="postlist">
+      <div class="panel">
+                <div class="panel-heading">
+                    <div class="text-center">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4 class="pull-right">
+                                <small><em>2014-07-30 18:30:00</em></small>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            <div class="panel-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in... 
+            </div>
+                       
+        </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -27,6 +77,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <!-- underscore -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-    <script src="scripts.js"></script>
+    <script type = "text/javascript" src="scripts.js"></script>
+
+    <!-- underscore template -->
+
+
   </body>
 </html>
